@@ -1,0 +1,16 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+bootstrap:
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.min.css: {}
+  js:
+    includes/bootstrap/js/bootstrap.min.js: {}
+
+front-page:
+  css:
+    theme:
+      css/frontpage.css: {}
