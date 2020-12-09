@@ -1,0 +1,22 @@
+uuid: 433d086b-f00f-4afb-a0be-738cd7e1529b
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: firsttheme_local_tasks
+theme: firsttheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

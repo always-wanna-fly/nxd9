@@ -1,0 +1,25 @@
+uuid: 52be9885-cb43-425a-8726-9d51e53fa6fb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: firsttheme_branding
+theme: firsttheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

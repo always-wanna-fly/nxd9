@@ -1,0 +1,23 @@
+uuid: d3744e20-8cea-4177-a338-f259b81e3872
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: firsttheme_search
+theme: firsttheme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Поиск
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

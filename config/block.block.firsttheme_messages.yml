@@ -1,0 +1,22 @@
+uuid: 45e618bf-9ea6-4d76-8f4f-19847cd3b619
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: firsttheme_messages
+theme: firsttheme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Системные сообщения'
+  provider: system
+  label_display: '0'
+visibility: {  }

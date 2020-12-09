@@ -1,0 +1,20 @@
+uuid: 2277cbaf-eab1-4bcc-9fe0-8e63e2a31c0c
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - firsttheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: firsttheme_local_actions
+theme: firsttheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  provider: core
+  label_display: '0'
+visibility: {  }

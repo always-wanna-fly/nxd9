@@ -1,0 +1,14 @@
+uuid: b15e32a5-437e-4c1f-9815-8f8486dac770
+name: nixdr9
+mail: vovaivanitskyi@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
