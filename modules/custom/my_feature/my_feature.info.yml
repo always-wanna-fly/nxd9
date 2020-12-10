@@ -1,0 +1,11 @@
+name: my_feature
+type: module
+core_version_requirement: ^8 || ^9
+core: 8.x
+dependencies:
+  - field
+  - node
+  - path
+  - rdf
+  - text
+  - user
