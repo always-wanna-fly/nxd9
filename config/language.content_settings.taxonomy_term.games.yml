@@ -1,0 +1,11 @@
+uuid: 4c3dceee-3bd7-484c-86ef-6e9c354eb1a0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.games
+id: taxonomy_term.games
+target_entity_type_id: taxonomy_term
+target_bundle: games
+default_langcode: site_default
+language_alterable: false

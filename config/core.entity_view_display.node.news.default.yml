@@ -1,0 +1,87 @@
+uuid: 3c0d4de0-80b3-4ce3-b3d3-12b2d36134de
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.news.field_consoles
+    - field.field.node.news.field_games
+    - field.field.node.news.field_images
+    - field.field.node.news.field_remote_video
+    - field.field.node.news.field_text
+    - field.field.node.news.field_title
+    - field.field.node.news.field_video
+    - node.type.news
+  module:
+    - media
+    - text
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  field_consoles:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_games:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_images:
+    type: media_thumbnail
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_remote_video:
+    type: entity_reference_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    weight: 4
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

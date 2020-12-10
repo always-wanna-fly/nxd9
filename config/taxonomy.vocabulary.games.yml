@@ -1,0 +1,8 @@
+uuid: d3fbf6ee-5f66-4d9b-a382-d986579b43c7
+langcode: ru
+status: true
+dependencies: {  }
+name: Игры
+vid: games
+description: ''
+weight: 0

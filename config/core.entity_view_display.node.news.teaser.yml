@@ -1,0 +1,45 @@
+uuid: 80f1d238-9728-4b0f-92dd-c633c1e50c31
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.news.field_consoles
+    - field.field.node.news.field_games
+    - field.field.node.news.field_images
+    - field.field.node.news.field_remote_video
+    - field.field.node.news.field_text
+    - field.field.node.news.field_title
+    - field.field.node.news.field_video
+    - image.style.media_library
+    - node.type.news
+  module:
+    - media
+    - user
+id: node.news.teaser
+targetEntityType: node
+bundle: news
+mode: teaser
+content:
+  field_images:
+    type: media_thumbnail
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: media_library
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_consoles: true
+  field_games: true
+  field_remote_video: true
+  field_text: true
+  field_title: true
+  field_video: true
+  langcode: true

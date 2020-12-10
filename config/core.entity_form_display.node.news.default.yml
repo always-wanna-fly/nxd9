@@ -1,0 +1,91 @@
+uuid: 05e59191-f5ba-4304-821d-f54fcb238be0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.news.field_consoles
+    - field.field.node.news.field_games
+    - field.field.node.news.field_images
+    - field.field.node.news.field_remote_video
+    - field.field.node.news.field_text
+    - field.field.node.news.field_title
+    - field.field.node.news.field_video
+    - node.type.news
+  module:
+    - media_library
+    - path
+    - text
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  field_consoles:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_games:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_images:
+    weight: 2
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_remote_video:
+    weight: 4
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_video:
+    weight: 3
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_title: true
+  langcode: true
+  status: true
+  sticky: true
+  uid: true

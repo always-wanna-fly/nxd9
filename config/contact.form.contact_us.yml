@@ -1,0 +1,12 @@
+uuid: fd64b836-b592-4742-812f-8c8f8d2865d3
+langcode: ru
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Связаться с нами'
+recipients:
+  - vovaivanitskyi@gmail.com
+reply: ''
+weight: 0
+message: 'Сообщение отправленно'
+redirect: /

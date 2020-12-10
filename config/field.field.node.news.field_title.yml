@@ -1,0 +1,19 @@
+uuid: ef2f8df3-9035-4b5e-a069-f1fa0b2fa8cd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.news
+id: node.news.field_title
+field_name: field_title
+entity_type: node
+bundle: news
+label: Заголовок
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

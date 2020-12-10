@@ -1,6 +1,6 @@
 uuid: d3744e20-8cea-4177-a338-f259b81e3872
 langcode: ru
-status: true
+status: false
 dependencies:
   module:
     - search

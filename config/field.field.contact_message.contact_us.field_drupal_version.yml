@@ -1,0 +1,21 @@
+uuid: ed3791d0-9dc5-4774-bdbd-7304800094c8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.storage.contact_message.field_drupal_version
+  module:
+    - options
+id: contact_message.contact_us.field_drupal_version
+field_name: field_drupal_version
+entity_type: contact_message
+bundle: contact_us
+label: 'drupal version'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

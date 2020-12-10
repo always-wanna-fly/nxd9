@@ -1,0 +1,8 @@
+uuid: 83da1d83-a522-428e-bbf1-2baa17d2eea2
+langcode: ru
+status: true
+dependencies: {  }
+name: Консоли
+vid: consoles
+description: ''
+weight: 0

@@ -1,0 +1,27 @@
+uuid: 6686094b-0368-461b-abbe-71469950e0fb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_drupal_version
+field_name: field_drupal_version
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'drupal 8'
+      label: 'drupal 8'
+    -
+      value: 'drupal 9'
+      label: 'drupal 9'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
